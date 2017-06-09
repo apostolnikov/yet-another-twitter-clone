@@ -37,6 +37,8 @@ app.use(bodyParser.json());
 
 app.use('/users', users);
 
+
+
 // Index Route
 app.get('/', (req, res) => {
   res.send('Invalid Endpoint');
